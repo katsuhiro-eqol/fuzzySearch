@@ -43,4 +43,4 @@ def search(input:str, count: int):
     sorted_array = sorted(array,key=lambda x: x["similarity"], reverse=True)
     return sorted_array[:count]
 
-print(search("有害物質に関する表示", 5))
+#print(search("有害物質に関する表示", 5))
